@@ -116,18 +116,22 @@ footer {
   font-size: 18px;
   font-weight: 400;
   line-height: 24px;
-}
-
-.get__btn {
-  margin-top: 60px;
   background: #580ea2;
   color: #fff;
 }
 
+
+.get__btn {
+  margin-top: 60px;
+ 
+}
+
+.get__btn_new:hover,
 .get__btn:hover {
   background: #3f007d;
 }
 
+.get__btn_new:active,
 .get__btn:active {
   background: #271a58;
 }
