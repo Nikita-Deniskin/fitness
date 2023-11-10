@@ -1,0 +1,87 @@
+/* Стили к регитрации и входу */
+
+.login {
+  display: flex;
+  height: 100vh;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+}
+
+.logo__svg {
+  margin-top: 33px;
+}
+
+.login__box {
+  display: flex;
+  width: 366px;
+  height: 439px;
+  border-radius: 12px;
+  background: #fff;
+  flex-direction: column;
+  align-items: center;
+}
+
+.login__new {
+  height: 331px;
+}
+
+.password {
+  height:  401px;
+}
+
+.login__text {
+  margin-top: 38px;
+  width: 278px;
+  text-align: start;
+}
+
+.login__text h3 {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.login__form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 38px;
+  row-gap: 38px;
+}
+
+.login__form-new {
+  margin-top: 20px;
+}
+
+.login__form-text {
+  width: 278px;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid #d0cece;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.login__form-text::placeholder {
+  color: #d0cece;
+}
+
+.reg__btn {
+  margin-top: 20px;
+  border: 1px solid #d0cece;
+  background: #fff;
+}
+
+.reg__btn:hover {
+  background: #f4f5f6;
+}
+
+.reg__btn:active {
+  background: #d9d9d9;
+}
+
+.get__btn_new {
+  margin-top: 50px;
+}
+

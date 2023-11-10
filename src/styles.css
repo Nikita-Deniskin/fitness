@@ -1,108 +1,137 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    font-family: sans-serif;
-    font-style: normal;
-    background: #e7e1fa;
+  font-family: sans-serif;
+  font-style: normal;
+  background: #e7e1fa;
 }
 
-
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 /* 1440/2 = 720 отступ 140 720-140 = 580 */
 .center {
-    padding-left: calc(50% - 580px);
-    padding-right: calc(50% - 580px);
+  padding-left: calc(50% - 580px);
+  padding-right: calc(50% - 580px);
 }
 
 .header__nav {
-    margin-top: 30px;
-    display: flex;
-    justify-content: space-between;
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
 }
 
 .nav__logo {
-    display: flex;
-    gap: 10px;
+  display: flex;
+  gap: 10px;
 }
 
 .logo__img {
-    height: 20px;
-    width: 28px;
-    background-image: url(./img/Logo.png);
-    background-repeat: no-repeat;
-    background-position: center;
+  height: 20px;
+  width: 28px;
+  background-image: url(./img/Logo.png);
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .header-title {
-    margin-top: 35px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  margin-top: 35px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .header-title__text {
-    width: 830px;
-    margin-bottom: 52px;
+  width: 830px;
+  margin-bottom: 52px;
 }
 
 .small-title-txt {
-    margin-bottom: 17px;
-    font-size: 20px;
-    font-weight: 400;
-    line-height: 23px;
+  margin-bottom: 17px;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 23px;
 }
 
 .big-title-txt {
-    font-size: 60px;
-    font-weight: 400;
-    line-height: 55px;
+  font-size: 60px;
+  font-weight: 400;
+  line-height: 55px;
 }
 
 .header-title__img {
-    width: 250px;
-    height: 215px;
-    transform: rotate(15deg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-image: url(img/Sale\ sticker\ 1.png);
+  width: 250px;
+  height: 215px;
+  transform: rotate(15deg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url(img/Sale\ sticker\ 1.png);
 }
 
 .content {
-    margin-bottom: 34px;
+  margin-bottom: 34px;
 }
 
 .content__grid {
-    display: flex;
-    justify-content: flex-start;
-    flex-wrap: wrap;
-    column-gap: 37px;
-    row-gap: 44px;
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  column-gap: 37px;
+  row-gap: 44px;
 }
 
 .content__grid-item {
-    width: 360px;
-    height: 480px;
-    border-radius: 30px;
-    background: rgba(205, 205, 205, 0.10);
-    background-color: red;
-    list-style-type: none;
+  width: 360px;
+  height: 480px;
+  border-radius: 30px;
+  background: rgba(205, 205, 205, 0.1);
+  background-color: red;
+  list-style-type: none;
 }
-
+/* 
 footer {
-}
+} */
 
 .footer__button {
-    width: 147px;
-    height: 48px;
-    border-radius: 46px;
-    background-color: #C7E957; 
-    margin: 0 auto; 
-    display: block;
+  width: 147px;
+  height: 48px;
+  border-radius: 46px;
+  background-color: #c7e957;
+  margin: 0 auto;
+  display: block;
+}
+
+/* активная кнопка purple */
+
+.__btn {
+  width: 278px;
+  height: 52px;
+  border-radius: 46px;
+  border: none;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+  background: #580ea2;
+  color: #fff;
+}
+
+
+.get__btn {
+  margin-top: 60px;
+ 
+}
+
+.get__btn_new:hover,
+.get__btn:hover {
+  background: #3f007d;
+}
+
+.get__btn_new:active,
+.get__btn:active {
+  background: #271a58;
 }

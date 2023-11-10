@@ -1,0 +1,89 @@
+/* форма прогресса */
+
+.progress__box {
+  background: #fff;
+  width: 444px;
+  height: 554px;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.progress__description {
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #d0cece;
+  width: 361px;
+}
+
+.progress__title {
+  margin-top: 36px;
+  margin-bottom: 30px;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 40px;
+}
+
+.progress__form {
+  width: 361px;
+}
+
+.progress__text {
+  margin-bottom: 20px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+}
+.progress__description {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+  margin-bottom: 30px;
+}
+
+.progress__description::placeholder {
+  color: #d0cece;
+}
+
+.post__btn {
+  margin-top: 20px;
+  background: #580ea2;
+  color: #fff;
+}
+
+.post__btn:hover {
+  background: #3f007d;
+}
+
+.post__btn:active {
+  background: #271a58;
+}
+
+/* зачисленный прогресс */
+
+.enrolled {
+  /* временно  */
+  margin-top: 60px;
+}
+
+.enrolled__box {
+  width: 444px;
+  height: 360px;
+  border-radius: 12px;
+  background: #fff;
+}
+
+.enrolled__text {
+  
+  padding-top: 41px;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 48px;
+}
+.enrolled__img {
+  height: 224px;
+  margin-left: 105px;
+}
