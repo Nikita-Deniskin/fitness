@@ -126,11 +126,13 @@ footer {
  
 }
 
+.application__btn:hover,
 .get__btn_new:hover,
 .get__btn:hover {
   background: #3f007d;
 }
 
+.application__btn:active,
 .get__btn_new:active,
 .get__btn:active {
   background: #271a58;
