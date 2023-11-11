@@ -21,7 +21,7 @@
 }
 
 body {
-  background: #271A58;
+  /* background: #271A58; */
   font-family: "StratosSkyeng", sans-serif;
 }
 
@@ -75,7 +75,7 @@ gap: 8px;
   background: #2D1F79;
 }
 
-.loginButton_active {
+.loginButton:active {
   background: #3B29A1;
 }
 
@@ -222,13 +222,15 @@ footer {
   margin-top: 60px;
  
 }
-
+.button__edit:hover,
 .application__btn:hover,
 .get__btn_new:hover,
 .get__btn:hover {
   background: #3f007d;
 }
 
+
+.button__edit:active,
 .application__btn:active,
 .get__btn_new:active,
 .get__btn:active {
