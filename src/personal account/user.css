@@ -51,6 +51,10 @@
   width: 275px;
 }
 
+.user{
+  height: 100vh;
+}
+
 .content__title {
   margin-bottom: 60px;
   font-size: 48px;
