@@ -6,10 +6,11 @@
   }
   
   .course__box {
-    height: 331px;
+    height: 310px;
+    width: 1160px;
     display: flex;
     justify-content: space-between;
-    background-color: rgba(205, 205, 205, 0.1);
+    background-image: url(../img/card-violet-BIG.png);
     border-radius: 30px;
   }
   
