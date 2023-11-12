@@ -1,0 +1,79 @@
+.header__user-box {
+  display: flex;
+  align-items: center;
+}
+
+.header__user {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 32px;
+  margin-left: 15px;
+  margin-right: 12px;
+}
+
+/* данные пользователя */
+
+.profile {
+  margin-top: 75px;
+  margin-bottom: 75px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.profile__title {
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 56px;
+}
+
+.profile__user {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.profile__user_pass,
+.profile__user_login {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 32px;
+}
+
+.profile__button {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.button__edit {
+  width: 275px;
+}
+
+.user{
+  height: 100vh;
+}
+
+.content__title {
+  margin-bottom: 60px;
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 56px;
+}
+
+.content__btn {
+  margin-top: 343px;
+  padding: 10px 20px;
+  border-radius: 80px;
+  background: #c7e957;
+  border: none;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 115%;
+}
+
+.content__grid_shadow{
+  box-shadow: -10px 10px 15.99882px 0px rgba(0, 0, 0, 0.10), 10px -10px 16px 0px rgba(0, 0, 0, 0.10);
+}

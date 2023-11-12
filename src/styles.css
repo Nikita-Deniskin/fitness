@@ -50,6 +50,159 @@ a {
   background-position: center;
 }
 
+.loginButton {
+  border-radius: 46px;
+background: #140D40;
+
+display: inline-flex;
+padding: 5px 16px 7px 16px;
+justify-content: center;
+align-items: center;
+gap: 8px;
+
+  color: #FFF;
+  text-align: center;
+  font-variant-numeric: lining-nums proportional-nums;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  font-size: 16px;
+  line-height: 24px; /* 150% */
+
+  cursor: pointer;
+}
+
+
+.loginButton:hover {
+  background: #2D1F79;
+}
+
+.loginButton:active {
+  background: #3B29A1;
+}
+
+.header-title {
+  margin-top: 35px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-title__text {
+  width: 830px;
+  margin-bottom: 52px;
+}
+
+.small-title-txt {
+  margin-bottom: 17px;
+  color: var(--monochrome-white-20, #FFF);
+  font-variant-numeric: lining-nums proportional-nums;
+  font-size: 20px;
+  line-height: 115%; /* 23px */
+  letter-spacing: -0.05px;
+  opacity: 0.5;
+  font-weight: 400;
+}
+
+.big-title-txt {
+  font-size: 60px;
+  font-weight: 400;
+  line-height: 55px;
+  color: #F4F4FF;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.header-title__img {
+  width: 212px;
+  height: 152px;
+  transform: rotate(15deg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url(img/Sale\ sticker\ 1.png);
+  background-size: cover;
+}
+
+.content {
+  margin-bottom: 34px;
+}
+
+.content__grid {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  column-gap: 37px;
+  row-gap: 44px;
+}
+
+.content__grid-item {
+  width: 360px;
+  height: 480px;
+  border-radius: 30px;
+  background: rgba(205, 205, 205, 0.1);
+  background-color: #fff;
+  list-style-type: none;
+  padding-top: 30px;
+  padding-left: 30px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.card-courses-title {
+  color: #000;
+  font-variant-numeric: lining-nums proportional-nums;
+  font-family: 'Abhaya-Libre', sans-serif;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 110%; /* 39.6px */
+  letter-spacing: -0.5px;
+}
+
+.content__grid-item1{
+  background-image: url(img/card-violet.png);
+}
+
+.content__grid-item2{
+  background-image: url(img/card-blue.png);
+}
+.content__grid-item3{
+  background-image: url(img/card-orange.png);
+}
+.content__grid-item4{
+  background-image: url(img/card-lightgreen.png);
+}
+.content__grid-item5{
+  background-image: url(img/card-lightblue.png);
+}
+/* 
+footer {
+} */
+
+.footer__button {
+  width: 147px;
+  height: 48px;
+  border-radius: 46px;
+  background-color: #c7e957;
+  margin: 0 auto;
+  display: block;
+
+  color: #000;
+  text-align: center;
+  font-variant-numeric: lining-nums proportional-nums;
+  font-size: 24px;
+  line-height: 32px; /* 133.333% */
+  letter-spacing: -0.1px;
+
+  cursor: pointer;
+}
+
+.footer__button:hover {
+  background: #DAF289;
+}
+
+.footer__button:active {
+  background: #EBFFAB;
+}
+
 /* активная кнопка purple */
 
 .__btn {
@@ -69,13 +222,15 @@ a {
   margin-top: 60px;
  
 }
-
+.button__edit:hover,
 .application__btn:hover,
 .get__btn_new:hover,
 .get__btn:hover {
   background: #3f007d;
 }
 
+
+.button__edit:active,
 .application__btn:active,
 .get__btn_new:active,
 .get__btn:active {
