@@ -63,7 +63,8 @@
 }
 
 .content__btn {
-  margin-top: 343px;
+  position: absolute;
+  bottom: 30px;
   padding: 10px 20px;
   border-radius: 80px;
   background: #c7e957;
@@ -72,6 +73,7 @@
   font-style: normal;
   font-weight: 400;
   line-height: 115%;
+  cursor: pointer;
 }
 
 .content__grid_shadow{
