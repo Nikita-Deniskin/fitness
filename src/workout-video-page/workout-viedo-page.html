@@ -161,8 +161,8 @@
     </section>
     <section class="workout__text center">
     <div class="workout-description">
-        <h2 class="h2 workout-description__title">Упражнения</h2>
-        <ul  class="p ul workout-description__text">
+        <h2 class="workout-description__title">Упражнения</h2>
+        <ul  class="workout-description__text">
             <li>Наклон вперед (10 повторений)</li>
             <li>Наклон назад (10 повторений)</li>
             <li>Поднятие ног, согнутых в коленях <br>(5 повторений)</li>
@@ -170,21 +170,39 @@
         <button class="progress__btn __btn">Заполнить свой прогресс</button>
     </div>
     <div class="workout__progress">
-        <h2 class="h2 workout-progress__title">Мой прогресс по тренировке 2:</h2>
+        <h2 class="workout-progress__title">Мой прогресс по тренировке 2:</h2>
         <div class="workout-progress__item">
-            <div class="p workout-progress__text">
+            <div class="workout-progress__text">
                 <p class="workout-progress__text-p">Наклоны вперед</p>
                 <p class="workout-progress__text-p">Наклоны назад</p>
                 <p class="workout-progress__text-p">Поднятие ног, согнутых в коленях</p>
             </div>
             <div class="workout__block-progress-bar">
-                <!-- <p class="progress-bar-text">45%</p>
-                <div class="progress-bar">
+                <div class="first-range">
+                    <span class="first-number">45%</span>
+                        <input type="range" class="input-loader blue"
+                        min="0" max="100" step="5" value='45' disabled>
+                </div>
+                <div class="first-range">
+                    <span class="first-number">45%</span>
+                    <input type="range" class="input-loader orange"
+                    min="0" max="100" step="5" value='45' disabled>
+            </div>
+            <div class="first-range">
+                <span class="first-number">45%</span>
+                <input type="range" class="input-loader purple"
+                min="0" max="100" step="5" value='45' disabled>
+        </div>
+                <!-- <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 70%;">
+                    <span class="show">60% Complete</span>
+                  </div> -->
+                <!-- <div class="progress-bar">
+                    <p class="progress-bar-text">45%</p>
                     <progress value="45" max="100">
                     </progress>
                 </div> -->
 
-                <div class="bar blue">
+                <!-- <div class="bar blue">
                     <div class="percent-bar blue-mini"><p class="percent-bar__text">45%</p></div>
                 </div>
                 <div class="bar orange">
@@ -192,7 +210,7 @@
                 </div>
                 <div class="bar purple">
                     <div class="percent-bar purple-mini"><p class="percent-bar__text">45%</p></div>
-                </div>
+                </div> -->
             </div>
         </div>
     </div>
