@@ -1,0 +1,232 @@
+body {
+  background-color: #fafafa;
+}
+
+.h1{
+  font-size: 48px;
+font-style: normal;
+font-weight: 400;
+line-height: 56px;
+}
+
+.h2{
+  font-size: 32px;
+font-style: normal;
+font-weight: 400;
+line-height: 40px;
+}
+
+.p {
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+}
+
+.ul{
+  position: relative;
+  left: 22px;
+}
+
+.header__user-box {
+  display: flex;
+  align-items: center;
+}
+
+.header__user {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 32px;
+  margin-left: 15px;
+  margin-right: 12px;
+}
+
+.workout__header {
+  margin-top: 75px;
+  margin-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.big-title {
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 56px;
+}
+
+.small-title {
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 40px;
+}
+
+.workout__video {
+  width: 1160px;
+  position: relative;
+}
+
+.button-play {
+  position: absolute;
+  left: 895px;
+  top: 241px;
+}
+.workout__text {
+  margin-top: 75px;
+  display: flex;
+  justify-content: space-between;
+  gap: 92px ;
+}
+
+.workout-description__title {
+  margin-bottom: 30px;
+}
+
+.workout-description{
+  display: flex;
+  flex-direction: column;
+}
+
+.workout-description__text{
+  width: 428px;
+}
+
+.progress__btn{
+  margin-top: 40px;
+}
+.progress__btn:active {
+  background: #271a58;
+}
+.progress__btn:hover {
+  background: #3f007d;
+}
+
+.workout__progress {
+  width: 638px;
+  height: 336px;
+  border: 1px;
+  background-color: #f2f2f2;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.workout-progress__item{
+  display: flex;
+  gap: 34px ;
+  margin-left: 44px;
+  margin-right: 55px;
+}
+
+.workout-progress__title{
+  margin-top: 36px;
+  margin-bottom: 40px;
+}
+
+.workout-progress__text{
+  margin-bottom: 32px;
+}
+
+.workout-progress__text-p{
+  margin-bottom: 30px;
+}
+
+/* попробовал через множество пустых <div> */
+
+.bar {
+  width: 278px;
+  height: 36px;
+  border-radius: 22px;
+  background: #edecff;
+  margin-bottom: 26px;
+}
+.percent-bar {
+  width: 136px;
+  height: 33px;
+  border-radius: 22px 0px 0px 22px;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  color: #fff;
+}
+
+.percent-bar__text{
+  position: relative;
+  left: 75px;
+}
+
+.blue {
+  border: 2px solid #565eef;
+}
+.orange {
+  border: 2px solid #ff6d00;
+}
+.purple {
+  border: 2px solid #9a48f1;
+}
+
+.blue-mini {
+  background-color: #565eef;
+}
+.orange-mini {
+  background-color: #ff6d00;
+}
+.purple-mini {
+  background-color: #9a48f1;
+}
+
+/* попробовал через <progress> бробелема с текстом */
+
+/* .progress-bar{
+  width: 240px;
+  height: 38px;
+  border: 1px;
+  border-color: #271a58;
+  background: #752525;
+  border-radius: 22px;
+  position: relative;
+}
+
+progress {
+  background-color: #f3f3f3;
+  border: 0;
+  width: 238px;
+  height: 36px;
+  border-radius: 22px;
+  border-color: #271a58;
+  border: 2px;
+  left: 1px;
+  top: 1px;
+  position: absolute;
+}
+
+progress::-webkit-progress-bar {  
+  width: 238px;
+  height: 36px;
+  border-radius: 22px;
+  background-color: #EDECFF;
+  border-color: #271a58;
+  border: 2px;
+} 
+
+progress::-webkit-progress-value {  
+  width: 238px;
+  height: 36px;
+  border-radius: 22px 0px 0px 22px;
+  background-color: #271a58;
+  border: #271a58;
+  border: 1px;
+}
+.progress-bar-text{
+
+  font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px;
+color: #000000;
+position: absolute;
+} */
