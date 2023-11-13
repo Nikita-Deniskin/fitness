@@ -21,7 +21,7 @@
 }
 
 body {
-  /* background: #271A58; */
+  background: #FAFAFA;
   font-family: "StratosSkyeng", sans-serif;
 }
 
@@ -45,7 +45,7 @@ a {
 .logo__img {
   height: 35px;
   width: 230px;
-  background-image: url(./img/Logo.png);
+  background-image: url(./img/logo-black.png);
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -75,7 +75,7 @@ gap: 8px;
   background: #2D1F79;
 }
 
-.loginButton_active {
+.loginButton:active {
   background: #3B29A1;
 }
 
@@ -133,6 +133,7 @@ gap: 8px;
 }
 
 .content__grid-item {
+  position: relative;
   width: 360px;
   height: 480px;
   border-radius: 30px;
@@ -194,12 +195,13 @@ footer {
 
   cursor: pointer;
 }
-
+.content__btn:hover,
 .footer__button:hover {
   background: #DAF289;
 }
 
-.footer__button_active {
+.content__btn:active,
+.footer__button:active {
   background: #EBFFAB;
 }
 
@@ -215,6 +217,7 @@ footer {
   line-height: 24px;
   background: #580ea2;
   color: #fff;
+  cursor: pointer;
 }
 
 
@@ -222,13 +225,15 @@ footer {
   margin-top: 60px;
  
 }
-
+.button__edit:hover,
 .application__btn:hover,
 .get__btn_new:hover,
 .get__btn:hover {
   background: #3f007d;
 }
 
+
+.button__edit:active,
 .application__btn:active,
 .get__btn_new:active,
 .get__btn:active {
