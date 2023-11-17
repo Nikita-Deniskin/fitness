@@ -1,5 +1,6 @@
 import './App.css';
-import NewPassword from './helpers/new-password/new.password';
+import PersonalAccount from './pages/personal account/personal.acc';
+// import NewPassword from './helpers/new-password/new.password';
 // import LoginPageComponent from './pages/main/loginpage/loginpage';
 // import MainPage from './pages/main/main';
 
@@ -9,7 +10,9 @@ function App() {
     <div>
      {/* <MainPage /> */}
      {/* <LoginPageComponent/> */}
-     <NewPassword/>
+     {/* <NewPassword/> */}
+
+     <PersonalAccount/>
     </div>
   );
 }
