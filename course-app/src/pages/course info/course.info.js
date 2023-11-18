@@ -1,4 +1,4 @@
-import LogoSvg from "../../helpers/svg-img/logo-svg/logoSvg";
+import LogoSvg from "../../svg image/logo-svg/logoSvg";
 import "./course.css"
 
 

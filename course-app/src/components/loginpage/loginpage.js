@@ -1,4 +1,4 @@
-import LogoSvg from "../svg-img/logo-svg/logoSvg";
+import LogoSvg from "../../svg image/logo-svg/logoSvg";
 import './login.css'
 
 
