@@ -1,5 +1,6 @@
 import './App.css';
-import CourseInfo from './pages/course info/course.info';
+// import VideoPage from './pages/video-page/video.page';
+// import CourseInfo from './pages/course info/course.info';
 // import PersonalAccount from './pages/personal account/personal.acc';
 // import NewPassword from './helpers/new-password/new.password';
 // import LoginPageComponent from './pages/main/loginpage/loginpage';
@@ -12,8 +13,8 @@ function App() {
      {/* <MainPage /> */}
      {/* <LoginPageComponent/> */}
      {/* <NewPassword/> */}
-     <CourseInfo/>
-
+     {/* <CourseInfo/> */}
+     {/* <VideoPage/> */}
      {/* <PersonalAccount/> */}
     </div>
   );
