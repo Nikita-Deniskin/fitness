@@ -1,20 +1,22 @@
 import './App.css';
-// import VideoPage from './pages/video-page/video.page';
-// import CourseInfo from './pages/course info/course.info';
-// import PersonalAccount from './pages/personal account/personal.acc';
-// import NewPassword from './helpers/new-password/new.password';
-// import LoginPageComponent from './pages/main/loginpage/loginpage';
-// import MainPage from './pages/main/main';
+// import NewLogin from './components/new-login/newLogin';
+// import LessonPage from './pages/lesson/LessonPage';
+// import CourseInfo from './pages/course_info/courseInfo';
+// import PersonalAccount from './pages/personal_account/personal_acc';
+// import NewPassword from './components/new-password/newPassword';
+// import SignInPage from './pages/sign_inup/SignInPage';
+// import MainPage from './pages/main/mainPage';
 
 
 function App() {
   return (
-    <div>
+    <div>s
      {/* <MainPage /> */}
-     {/* <LoginPageComponent/> */}
+     {/* <SignInPage/> */}
      {/* <NewPassword/> */}
+     {/* <NewLogin/> */}
      {/* <CourseInfo/> */}
-     {/* <VideoPage/> */}
+     {/* <LessonPage/> */}
      {/* <PersonalAccount/> */}
     </div>
   );

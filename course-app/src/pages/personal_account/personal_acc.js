@@ -1,5 +1,5 @@
-import ArrowSvg from "../../helpers/svg-img/arrow-svg/arrowSvg";
-import LogoSvg from "../../helpers/svg-img/logo-svg/logoSvg";
+import ArrowSvg from "../../svg_image/arrow-svg/arrowSvg";
+import LogoSvg from "../../svg_image/logo-svg/logoSvg";
 
 import "./personal.css"
 
