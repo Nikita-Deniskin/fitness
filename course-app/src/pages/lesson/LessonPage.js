@@ -1,9 +1,9 @@
-import ArrowSvg from "../../svg image/arrow-svg/arrowSvg";
-import LogoSvg from "../../svg image/logo-svg/logoSvg";
+import ArrowSvg from "../../svg_image/arrow-svg/arrowSvg";
+import LogoSvg from "../../svg_image/logo-svg/logoSvg";
 
-import "./video-page.css"
+import "./LessonPage.css"
 
-export default function VideoPage() {
+export default function LessonPage() {
   return (
      <div>
       <header className="center">

@@ -1,5 +1,5 @@
-import LogoSvg from "../../svg image/logo-svg/logoSvg";
-import '../loginpage/login.css'
+import LogoSvg from "../../svg_image/logo-svg/logoSvg";
+import '../../pages/sign_inup/login.css'
 
 
 export default function NewLogin () {

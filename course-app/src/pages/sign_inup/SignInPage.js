@@ -1,9 +1,9 @@
-import LogoSvg from "../../svg image/logo-svg/logoSvg";
+import LogoSvg from "../../svg_image/logo-svg/logoSvg";
 import './login.css'
 
 
 
-export default function LoginPageComponent () {
+export default function SignInPage() {
 
     return (
         <div className="login">
