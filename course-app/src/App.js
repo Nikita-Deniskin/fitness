@@ -1,4 +1,6 @@
 import './App.css';
+import Counted from './components/counted/counted';
+// import Progress from './components/progress/progress';
 // import NewLogin from './components/new-login/newLogin';
 // import LessonPage from './pages/lesson/LessonPage';
 // import CourseInfo from './pages/course_info/courseInfo';
@@ -10,7 +12,7 @@ import './App.css';
 
 function App() {
   return (
-    <div>s
+    <div>
      {/* <MainPage /> */}
      {/* <SignInPage/> */}
      {/* <NewPassword/> */}
@@ -18,6 +20,8 @@ function App() {
      {/* <CourseInfo/> */}
      {/* <LessonPage/> */}
      {/* <PersonalAccount/> */}
+     {/* <Progress/> */}
+     <Counted/>
     </div>
   );
 }
