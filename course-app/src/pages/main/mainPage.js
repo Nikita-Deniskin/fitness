@@ -1,12 +1,24 @@
+// import { Link } from 'react-router-dom';
 import './main.css'
 
 export default function MainPage() {
+
+    const scrollToTop = () => {
+        window.scrollTo({
+          top: 0,
+          behavior: 'smooth',
+        });
+      };
+
     return (
         <div>
             <header className="center">
                 <nav className="header__nav">
                     <div className="logo__img" />
+                    {/* <Link to='/login'> */}
                     <div className="loginButton"><p>Войти</p></div>
+                    {/* </Link> */}
+                    
                 </nav>
                 <section className="header-title">
                     <section className="header-title__text">
@@ -26,7 +38,7 @@ export default function MainPage() {
                 </ul>
             </article>
             <footer className="center">
-                <button className="footer__button" type='button'>Наверх ↑</button>
+                <button onClick={scrollToTop} className="footer__button" type='button'>Наверх ↑</button>
             </footer>
         </div>
     )
