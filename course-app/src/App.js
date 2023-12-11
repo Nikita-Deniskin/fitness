@@ -1,20 +1,15 @@
+import * as S from './App.styled'
 import './App.css'
-import MainPage from './pages/main/mainPage';
-// import { HashRouter as Router, Routes, Route } from "react-router-dom";
-// import SignInPage from './pages/sign_inup/SignInPage';
-
-// import CourseInfo from './pages/course_info/courseInfo';
-// import database from './Firebase'
+import AppRoutes from './routes'
+import database from './Firebase'
 
 function App() {
-  // console.log(database);
-
+  console.log(database)
   return (
-    <div>
-      {/* <SignInPage/> */}
-      <MainPage/>
-    </div>
-  );
+    <S.MainApp>
+      <AppRoutes />
+    </S.MainApp>
+  )
 }
 
-export default App;
+export default App
