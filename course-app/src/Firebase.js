@@ -1,19 +1,18 @@
 import { initializeApp } from 'firebase/app'
 import { getAuth } from 'firebase/auth'
 
-// Конфиг для фаербейса 
-
-const fireBaseConfig = {
-        apiKey: "AIzaSyDcReZcgoHpj1zSdaoE77ofcE1ytDl8r6M",
-        authDomain: "fitnes-pro-df342.firebaseapp.com",
-        databaseURL: "https://fitnes-pro-df342-default-rtdb.europe-west1.firebasedatabase.app",
-        projectId: "fitnes-pro-df342",
-        storageBucket: "fitnes-pro-df342.appspot.com",
-        messagingSenderId: "299081918646",
-        appId: "1:299081918646:web:7f792908a95bdb967b9e17"
+const firebaseConfig = {
+  apiKey: 'AIzaSyAW2mXvaJPJoPm2QUl3Fkb51uI3OIzj3CA',
+  authDomain: 'fitness-pro-919d9.firebaseapp.com',
+  databaseURL:
+    'https://fitness-pro-919d9-default-rtdb.europe-west1.firebasedatabase.app',
+  projectId: 'fitness-pro-919d9',
+  storageBucket: 'fitness-pro-919d9.appspot.com',
+  messagingSenderId: '959747852287',
+  appId: '1:959747852287:web:e87eaf26df3f83e41989ca',
 }
 
-const app = initializeApp(fireBaseConfig)
+const app = initializeApp(firebaseConfig)
 
 export const auth = getAuth(app)
 export default app
