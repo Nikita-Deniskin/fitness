@@ -2,15 +2,14 @@ import { initializeApp } from 'firebase/app'
 import { getAuth } from 'firebase/auth'
 
 const firebaseConfig = {
-  apiKey: 'AIzaSyAW2mXvaJPJoPm2QUl3Fkb51uI3OIzj3CA',
-  authDomain: 'fitness-pro-919d9.firebaseapp.com',
-  databaseURL:
-    'https://fitness-pro-919d9-default-rtdb.europe-west1.firebasedatabase.app',
-  projectId: 'fitness-pro-919d9',
-  storageBucket: 'fitness-pro-919d9.appspot.com',
-  messagingSenderId: '959747852287',
-  appId: '1:959747852287:web:e87eaf26df3f83e41989ca',
-}
+  apiKey: "AIzaSyAoU3NCjB0K_aZBAEzDhgrnadiLM4iR9Wk",
+  authDomain: "fitness-pro-db2af.firebaseapp.com",
+  databaseURL: "https://fitness-pro-db2af-default-rtdb.europe-west1.firebasedatabase.app",
+  projectId: "fitness-pro-db2af",
+  storageBucket: "fitness-pro-db2af.appspot.com",
+  messagingSenderId: "617400126781",
+  appId: "1:617400126781:web:fec3da9e068a209c284954"
+};
 
 const app = initializeApp(firebaseConfig)
 
